@@ -1,0 +1,17 @@
+.footer {
+  background-color: #0B0D0E;
+  display: flex;
+  padding: 1rem 0;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer h2 {
+  color:  #CFCECE;
+}
+
+.footer h2 span {
+  color: #DF5A1A;
+}

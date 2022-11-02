@@ -3,15 +3,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: center;
 }
 
 .title {
   color: #CFCECE;
-  margin-left: 16rem;
-  font-size: 6rem;
+  margin-left: 1em;
+  font-size: 4em;
 }
 
 .title span {

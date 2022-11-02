@@ -1,0 +1,19 @@
+.container {
+  background-image: url('../images/beans-coffe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: #CFCECE;
+  margin-left: 16rem;
+  font-size: 6rem;
+}
+
+.title span {
+  color: #DF5A1A;
+}

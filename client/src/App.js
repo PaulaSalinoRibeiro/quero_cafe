@@ -1,8 +1,16 @@
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import { Routers } from './routers';
+
+const client = new ApolloClient({
+  uri: 'http://localhost:8000/graphql',
+  cache: new InMemoryCache(),
+});
+
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <ApolloProvider client={client}>
+      <Routers />
+    </ApolloProvider>
   );
 }
 

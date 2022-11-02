@@ -1,0 +1,32 @@
+.nav {
+  background-color: #0B0D0E;
+  display: flex;
+  padding: 1rem 0;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 12rem;
+  width: 24%;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li a {
+  border: 1px solid transparent;
+  color: #CFCECE;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 1rem;
+  text-decoration: none;
+  transition: .1s;
+}
+
+.nav ul li a:hover {
+  border-bottom: 4px solid  #DF5A1A;;
+  color: #DF5A1A;
+  font-size: x-large;
+}

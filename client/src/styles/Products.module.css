@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0B0D0E;
+
+}
+
+.title {
+  color: #DF5A1A;
+  text-align: center;
+  font-size: xxx-large;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem;
+}

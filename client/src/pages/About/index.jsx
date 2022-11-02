@@ -18,8 +18,8 @@ export function About() {
             <strong>Sobre</strong> <br/>
             A <span>Quero Café</span> consiste de um projeto pessoal desenvolvido 
             com o intuito de consolidar as habilidades em <span>React</span>, <span>GraphQL </span> 
-            e <span>Mongo DB</span> que foram as principais tecnologias utilizadas na construção dessa aplicação
-            <span> FullStack</span>.
+            e <span>Mongo DB</span> que foram as principais tecnologias utilizadas 
+            para a construção dessa aplicação<span> FullStack</span>.
           </p>
         </div>
       </main>

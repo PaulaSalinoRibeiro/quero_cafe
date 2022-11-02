@@ -40,4 +40,9 @@
   font-size: 1rem;
   font-weight: bold;
   padding: 0 2rem;
+  transition: .2s;
+}
+
+.infos button:hover {
+  background-color: #453530;
 }

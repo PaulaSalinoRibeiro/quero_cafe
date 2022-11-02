@@ -1,0 +1,43 @@
+.container {
+  background-color: #0B0D0E;
+  display: flex;
+  justify-content: space-evenly;
+  height: 70vh;
+}
+
+.image {
+  margin-top: 8rem;
+  width: 40%;
+}
+
+.image img {
+  border-radius: 4rem;
+  padding: 2rem;
+  width: 630px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  width: 30%;
+}
+
+.text p {
+  color: #CFCECE;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.text p strong {
+  color: #DF5A1A;
+  font-size: 2.8rem;
+  line-height: 2.4;
+}
+
+.text p span {
+  color: #9B705C;
+  font-weight: bold;
+}
+
+

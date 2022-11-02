@@ -1,7 +1,7 @@
-import { Header } from '../../components/Header';
-import { Footer } from '../../components/Footer';
+import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
 
-import styled from '../../styles/Home.module.css';
+import styled from "../../styles/Home.module.css";
 
 export function Home() {
   return (

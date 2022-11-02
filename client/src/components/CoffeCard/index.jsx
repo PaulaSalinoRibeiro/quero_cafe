@@ -10,9 +10,13 @@ export function CoffeCard({ product }) {
       <h2 className={styled.name}>
         {product.name}
       </h2>
-      <img src={product.image} alt={product.name} className={styled.image}/>
+      <img 
+        src={product.image} 
+        alt={product.name} 
+        className={styled.image}
+      />
       <div className={styled.infos}>
-        <p>R$ {product.price.replace('.', ',')}</p>
+        <p>R$ {product.price.replace(".", ",")}</p>
         <button
           type="button"
           onClick={() => navigate(`/products/${product.id}`)}

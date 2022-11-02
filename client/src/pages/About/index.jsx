@@ -3,7 +3,7 @@ import { Footer } from '../../components/Footer';
 
 import styled from '../../styles/About.module.css';
 
-import BagCoffee from '../../images/bag-of-coffe-beans.jpg';
+import BagCoffee from "../../images/bag-of-coffe-beans.jpg";
 
 export function About() {
   return (

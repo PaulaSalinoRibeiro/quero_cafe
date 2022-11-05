@@ -11,4 +11,19 @@ const GET_PRODUCTS = gql`
   }
 `
 
-export { GET_PRODUCTS }
+const GET_PRODUCT = gql`
+  query GetProduct($id: ID!) {
+    product(id: $id) {
+      id
+      name
+      flavor
+      type
+      grind
+      description
+      price
+      image
+    }
+  }
+`
+
+export { GET_PRODUCTS, GET_PRODUCT }

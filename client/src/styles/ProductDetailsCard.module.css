@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 8rem 0;
+  width: 60%;
+}
+
+img {
+  width: 300px;
+}
+
+.infos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12rem;
+}
+
+.title {
+  color: #DF5A1A;
+  font-size: xxx-large;
+}
+
+.description {
+  text-align: justify-content;
+  color: #9B705C;
+  font-size: x-large;
+}
+
+.caracters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.caracters p {
+  color: #9B705C;
+  font-size: large;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.price {
+  color: #9B705C;
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 2rem;
+}
